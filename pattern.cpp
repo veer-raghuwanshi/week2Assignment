@@ -1,25 +1,22 @@
-#include <iostream>
+
+#include<iostream>
 using namespace std;
-/*
-*
-**
-***
-*****
-
-
-*/
-
-int main()
-{
-    for (int i = 1; i <= 5; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-
-            cout << " * ";
+// *
+//***
+// ******
+int main(){
+        int i;
+        for(i= 1;i<=5;i++){
+                for(int j = 1;j<=i;j++){
+                        if(i%2!=0){
+                            cout<<" * "; 
+                        }
+                      
+                }
+        cout<<endl;        
         }
-        cout << endl;
-    }
+
+}
     /// 5
     for (int i = 5; i >= 1; i--)
     {
